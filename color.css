@@ -63,52 +63,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* Other */
-.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked .active-item-indicator:before {
-  border: 0;
-  width: 3px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(to bottom, #fc6c8f, #ff2ced);
-}
-
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container {
-  background-size: 400% 400%;
-  background-image: linear-gradient(-45deg,
-      #fc6c8f,
-      #ff2ced,
-      #ffb86c,
-      #2cccff,
-      #20e3b2,
-      #ffcc70,
-      #c850c0,
-      #4158d0);
-  animation: gradient 3.5s ease alternate infinite;
-  height: 3px;
-  border-radius: 50%;
-
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .badge .badge-content {
-  background-image: linear-gradient(var(--gradient-dir2), #fc6c8f, #ff2ced);
-}
-
 .cursors-layer .cursor {
   background-image: linear-gradient(245deg,
       #fcb564,
@@ -120,4 +74,63 @@
 .editor-container .monaco-scrollable-element>.scrollbar.vertical>.slider {
   background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
   width: 3px !important;
+}
+
+.tab-border-bottom-container,
+.tab-border-top-container {
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 1.1px;
+  width: 100% !important;
+  height: calc(100% - 1px) !important;
+  background-color: transparent !important;
+  border-radius: inherit;
+  box-sizing: border-box;
+}
+
+.tab-border-bottom-container:before,
+.tab-border-top-container:before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: spinner 3s cubic-bezier(0, 0.8, 0.95, 1) infinite;
+  background: conic-gradient(from 0deg at 50% 51.35%,
+      rgba(185, 215, 243, 0) 0deg,
+      rgba(185, 215, 243, 0) 289.4deg,
+      #fc6c8f 318deg,
+      #ff2ced 1turn,
+      #ffb86c 2turn,
+      #2cccff 3turn),
+    conic-gradient(from 180deg at 50% 51.35%,
+      rgba(185, 215, 243, 0) 0deg,
+      rgba(185, 215, 243, 0) 287.46deg,
+      #20e3b2 318deg,
+      #ffcc70 1turn,
+      #c850c0 2turn,
+      #4158d0 3turn);
+  border-radius: inherit;
+}
+
+@keyframes spinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab.active {
+  border-radius: 100px !important;
+  box-shadow: inset 0 1px 1px 0 rgba(199, 211, 234, 0.12),
+    inset 0 24px 48px 0 rgba(199, 211, 234, 0.05),
+    0 24px 32px 0 rgba(6, 6, 14, 0.7);
 }
