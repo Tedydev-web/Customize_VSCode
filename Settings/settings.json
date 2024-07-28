@@ -1,0 +1,510 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "code-runner.executorMap": {
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "ahk": "autohotkey",
+    "applescript": "osascript",
+    "autoit": "autoit3",
+    "bat": "cmd /c",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "clojure": "lein exec",
+    "coffeescript": "coffee",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "crystal": "crystal",
+    "csharp": "dotnet watch run",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "dart": "dart",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fsharp": "fsi",
+    "go": "go run",
+    "groovy": "groovy",
+    "haskell": "runghc",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "javascript": "node",
+    "julia": "julia",
+    "kit": "kitc --run",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "lisp": "sbcl --script",
+    "lua": "lua",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "ocaml": "ocaml",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "perl": "perl",
+    "perl6": "perl6",
+    "php": "php",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "python": "python -u",
+    "r": "Rscript",
+    "racket": "racket",
+    "ruby": "ruby",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "sass": "sass --style expanded",
+    "scala": "scala",
+    "scheme": "csi -script",
+    "scss": "scss --style expanded",
+    "shellscript": "bash",
+    "sml": "cd $dir && sml $fileName",
+    "swift": "swift",
+    "typescript": "ts-node",
+    "v": "v run",
+    "vbscript": "cscript //Nologo",
+    "zig": "zig run"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "editor.accessibilitySupport": "off",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 30,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "githubPullRequests.pullBranch": "never",
+  "gitlens.ai.experimental.anthropic.model": "claude-2.1",
+  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo",
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.graph.minimap.additionalTypes": ["tags"],
+
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.suggest.preview": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "[html]": {
+    "editor.matchBrackets": "never",
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[css]": {
+    "editor.matchBrackets": "never"
+  },
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+
+  "vscode_custom_css.imports": [
+    "file:///Users/hieudat/VSCode/color.css",
+    "file:///D:/Workhome/GitHub/VSCode/color.css"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "powermode.combo.counterSize": 10,
+  "powermode.combo.location": "off",
+  "powermode.combo.threshold": 3,
+  "powermode.combo.timeout": 0,
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.explosions.offset": 0.2,
+  "powermode.explosions.size": 3.5,
+  "powermode.shake.enabled": false,
+  "powermode.shake.intensity": 5,
+  "security.workspace.trust.untrustedFiles": "open",
+  "settingsSync.ignoredSettings": [
+
+  "editor.fontFamily"],
+  "tabnine.experimentalAutoImports": true,
+  "terminal.explorerKind": "both",
+  "terminal.external.windowsExec": "C:\\Users\\Hieud\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe",
+  "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+  "terminal.integrated.automationProfile.linux": {},
+  "terminal.integrated.automationProfile.windows": {},
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.letterSpacing": 1.3,
+  "window.newWindowDimensions": "maximized",
+  "workbench.fontAliasing": "antialiased",
+  "editor.linkedEditing": true,
+  "terminal.integrated.lineHeight": 1.5,
+  "workbench.colorTheme": "Evondev Dracula Normal Contrast",
+  "workbench.preferredDarkColorTheme": "Evondev Dracula Normal Contrast",
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+
+  "indentRainbow.colors": [
+    "rgba(38, 70, 83,0.2)",
+    "rgba(42, 157, 143,0.2)",
+    "rgba(233, 196, 106, 0.2)",
+    "rgba(244, 162, 97,0.2)",
+    "rgba(231, 111, 81,0.2)",
+    "rgba(231, 111, 81,0.15)",
+    "rgba(231, 111, 81,0.1)",
+    "rgba(231, 111, 81,0.005)"
+  ],
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0)",
+  "indentRainbow.errorColor": "rgba(128,32,32,0)",
+
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "explorer.confirmPasteNative": false,
+  "mssql.connections": [
+    {
+      "server": "202.92.7.204\\MSSQLSERVER2022, 1438",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "HieuDat",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "Host",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    },
+    {
+      "server": "localhost,1433",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "sa",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "Local",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    }
+  ],
+  "mssql.shortcuts": {
+    "_comment": "Short cuts must follow the format (ctrl)+(shift)+(alt)+[key]",
+    "event.toggleResultPane": "ctrl+alt+R",
+    "event.focusResultsGrid": "ctrl+alt+G",
+    "event.toggleMessagePane": "ctrl+alt+Y",
+    "event.prevGrid": "ctrl+up",
+    "event.nextGrid": "ctrl+down",
+    "event.copySelection": "ctrl+C",
+    "event.copyWithHeaders": "",
+    "event.copyAllHeaders": "",
+    "event.maximizeGrid": "",
+    "event.selectAll": "ctrl+A",
+    "event.saveAsJSON": "",
+    "event.saveAsCSV": "",
+    "event.saveAsExcel": "",
+    "event.changeColumnWidth": "ctrl+alt+S"
+  },
+  "dotnetAcquisitionExtension.existingDotnetPath": [],
+  "nasc-touchbar.blockComment": true,
+  "nasc-touchbar.toggleWhiteSpace": true,
+  "cmake.touchbar.advanced": {},
+  "keyboard.touchbar.enabled": false,
+  "cmake.configureOnOpen": true,
+  "redhat.telemetry.enabled": true,
+  "cmake.showOptionsMovedNotification": false,
+  "editor.definitionLinkOpensInPeek": true,
+  "typescript.preferGoToSourceDefinition": true,
+  "javascript.preferGoToSourceDefinition": true,
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "google-translate.firstLanguage": "vi",
+  "mssql.objectExplorer.groupBySchema": false,
+  "terminal.integrated.defaultProfile.osx": "dotnet",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "dotnet": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    },
+    ".NET": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    }
+  },
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "material-icon-theme.files.color": "#42a5f5",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "color-highlight.markerType": "underline",
+  "editor.defaultFormatter": "GitHub.copilot",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 500,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "ms-mssql.mssql"
+  },
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "google-translate.maxSizeOfResult": 99999999,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.cursorWidth": 1,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.inlineSuggest.enabled": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "explorer.compactFolders": false,
+  "editor.cursorBlinking": "expand",
+  "editor.inlayHints.enabled": "on",
+  "html.format.wrapLineLength": 70,
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.renderLineHighlight": "none",
+  "editor.guides.bracketPairsHorizontal": false,
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "editor.renderWhitespace": "all",
+  "scss.lint.unknownProperties": "ignore",
+  "workbench.startupEditor": "none",
+  "files.trimTrailingWhitespace": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true,
+    "suppressLineUncommittedWarning": true
+  },
+  "debug.console.fontSize": 14,
+  "files.autoSaveDelay": 2500,
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "workbench.colorCustomizations": {
+    "editor.linkedEditingBackground": "#ffffff00",
+    "selection.background": "#828bb828"
+  },
+  "powermode.enabled": true,
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.layoutControl.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "livePreview.notifyOnOpenLooseFile": false,
+  "terminal.integrated.automationProfile.osx": {},
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "gitlens.graph.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "cloudcode.duetAI.project": "vscode-07052024",
+  "cloudcode.duetAI.languages": [
+    "csharp",
+    "html",
+    "css",
+    "javascript",
+    "git-commit",
+    "json",
+    "razor",
+    "scss",
+    "sass",
+    "sql"
+  ],
+  "editor.letterSpacing": 2,
+  "editor.fontSize": 14,
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.restore": false,
+  "java.silentNotification": true,
+  "search.maxResults": 2000000000,
+  "search.useReplacePreview": false,
+  "window.commandCenter": false,
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "codium.codeCompletion.enable": true,
+  "entityframework.commands": {
+    "addMigration": [
+      "dotnet",
+      "ef",
+      "migrations",
+      "add",
+      "\"$migrationName\"",
+      "--project",
+      "\"$project\"",
+      "--startup-project",
+      "\"$project\"",
+      "--context",
+      "\"$dbContext\""
+    ],
+    "removeMigration": [
+      "dotnet",
+      "ef",
+      "migrations",
+      "remove",
+      "--project",
+      "\"$project\"",
+      "--startup-project",
+      "\"$project\"",
+      "--context",
+      "\"$dbContext\""
+    ],
+    "runMigration": [
+      "dotnet",
+      "ef",
+      "database",
+      "update",
+      "--project",
+      "\"$project\"",
+      "--startup-project",
+      "\"$project\"",
+      "--context",
+      "\"$dbContext\"",
+      "\"$migrationId\""
+    ],
+    "generateScript": [
+      "dotnet",
+      "ef",
+      "dbcontext",
+      "script",
+      "--project",
+      "\"$project\"",
+      "--startup-project",
+      "\"$project\"",
+      "--context",
+      "\"$dbContext\""
+    ],
+    "listDbContexts": [
+      "dotnet",
+      "ef",
+      "dbcontext",
+      "list",
+      "--project",
+      "\"$project\"",
+      "--startup-project",
+      "\"$project\""
+    ],
+    "listMigrations": [
+      "dotnet",
+      "ef",
+      "migrations",
+      "list",
+      "--context",
+      "\"$context\"",
+      "--project",
+      "\"$project\"",
+      "--startup-project",
+      "\"$project\""
+    ],
+    "dbContextInfo": [
+      "dotnet",
+      "ef",
+      "dbcontext",
+      "info",
+      "--context",
+      "\"$dbContext\"",
+      "--project",
+      "\"$project\"",
+      "--startup-project",
+      "\"$project\""
+    ],
+    "scaffold": [
+      "dotnet",
+      "ef",
+      "dbcontext",
+      "scaffold",
+      "\"$connectionString\"",
+      "\"$provider\"",
+      "--output-dir",
+      "\"$outputDir\"",
+      "--context",
+      "\"$context\"",
+      "--project",
+      "\"$project\"",
+      "--context-dir",
+      "\"$contextDir\"",
+      "--namespace",
+      "\"$namespace\""
+    ],
+    "generateERD": [
+      "dotnet",
+      "ef",
+      "dbcontext",
+      "scaffold",
+      "\"$connectionString\"",
+      "\"$provider\"",
+      "--context",
+      "\"$context\"",
+      "--project",
+      "\"$project\"",
+      "--output-dir",
+      "\"$outputDir\"",
+      "--use-database-names"
+    ]
+  },
+ "entityframework.erDiagram": {
+    "ignoreTables": [".*Tracking$"]
+  },
+  "entityframework.env": {
+    "ASPNETCORE_ENVIRONMENT": "localhost",
+    "TenantId": "TedyDev@2310"
+  },
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  }
+}
