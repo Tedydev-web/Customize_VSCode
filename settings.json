@@ -1,0 +1,431 @@
+{
+  // Editor Settings
+  "editor.fontFamily": "Dank Mono, Arial, Helvetica, sans-serif",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.cursorWidth": 1,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineHeight": 30,
+  "editor.letterSpacing": 0.5,
+  "editor.tabSize": 6,
+  "editor.minimap.renderCharacters": false,
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.matchBrackets": "never", // Specific to HTML and CSS
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 200,
+  "editor.linkedEditing": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.inlayHints.enabled": "on",
+
+  // File Settings
+  "files.trimTrailingWhitespace": true,
+  "files.autoSaveDelay": 5000,
+  "files.exclude": {
+    "**/.history": true,
+    "**/.next": true,
+    "**/.nuxt": true
+  },
+
+  // Explorer Settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  // Terminal Settings
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.letterSpacing": 0.5,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.env.osx": {},
+
+  // GitLens Settings
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true,
+    "suppressLineUncommittedWarning": true
+  },
+  "gitlens.codeLens.enabled": false,
+
+  // Language Specific Settings
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.matchBrackets": "never",
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.matchBrackets": "never"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "bounded"
+  },
+
+  // Emmet Settings
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // JavaScript/TypeScript Settings
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // HTML/CSS/SCSS Settings
+  "html.format.wrapLineLength": 70,
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownProperties": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.unknownProperties": "ignore",
+
+  // Tailwind CSS Settings
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    ".*Class",
+    ".*ClassName"
+  ],
+
+  // Miscellaneous Settings
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Evondev Dracula Author",
+  "workbench.fontAliasing": "antialiased",
+  "window.zoomLevel": 1.75,
+  "window.newWindowDimensions": "maximized",
+
+  // Live Server Settings
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // ESLint Settings
+  "eslint.alwaysShowStatus": true,
+
+  // Glean Settings
+  "glean.showConversionWarning": false,
+  "glean.useExportDefault": true,
+
+  // Turbo Console Log Settings
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+
+  // CodeSnap Settings
+  "codesnap.backgroundColor": "transparent",
+
+  // Color Highlight Settings
+  "color-highlight.markerType": "underline",
+
+  // VS IntelliCode Settings
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Total TypeScript Settings
+  "totalTypeScript.hideAllTips": true,
+
+  // Indent Rainbow Settings
+  "indentRainbow.colors": [
+    "rgba(38, 70, 83,0.2)",
+    "rgba(42, 157, 143,0.2)",
+    "rgba(233, 196, 106, 0.2)",
+    "rgba(244, 162, 97,0.2)",
+    "rgba(231, 111, 81,0.2)",
+    "rgba(231, 111, 81,0.15)",
+    "rgba(231, 111, 81,0.1)",
+    "rgba(231, 111, 81,0.005)"
+  ],
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0)",
+  "indentRainbow.errorColor": "rgba(128,32,32,0)",
+
+  // Console Ninja Settings
+  "console-ninja.featureSet": "Pro",
+
+  // Custom Colors
+  "workbench.colorCustomizations": {
+    "editor.linkedEditingBackground": "#ffffff00",
+    "selection.background": "#828bb828"
+  },
+
+  // Git Settings
+  "git.openRepositoryInParentFolders": "never",
+
+  // Custom CSS on VS Code
+  "vscode_custom_css.imports": [
+    "file:///Users/tedydev/Workhome/GitHub/VSCode/color.css",
+    "file:///D:/OneDrive-qph6/Workplace/Dev/VSCode/color.css"
+  ],
+
+  // Extensions Settings
+  "tabnine.experimentalAutoImports": true,
+
+  // Power Mode Settings
+  "powermode.combo.counterSize": 10,
+  "powermode.combo.location": "off",
+  "powermode.combo.threshold": 3,
+  "powermode.combo.timeout": 0,
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.explosions.offset": 0.2,
+  "powermode.explosions.size": 3.5,
+  "powermode.shake.enabled": false,
+  "powermode.shake.intensity": 5,
+  "powermode.enabled": true,
+
+  // Better Comments Settings
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  // MSSQL Server Settings
+  "mssql.maxRecentConnections": 5,
+  "mssql.connections": [
+    {
+      "server": "localhost,1433",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "sa",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "Localhost",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    },
+    {
+      "server": "202.92.7.204\\MSSQLSERVER2022,1438",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "HieuDat",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "Personalhost",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    },
+    {
+      "server": "203.113.174.12, 1435",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "lms.vnmentor",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "lms.vnMentor",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    }
+  ],
+  "mssql.shortcuts": {
+    "event.toggleResultPane": "ctrl+alt+r",
+    "event.toggleMessagePane": "ctrl+alt+y",
+    "event.prevGrid": "ctrl+up",
+    "event.nextGrid": "ctrl+down",
+    "event.copySelection": "ctrl+c",
+    "event.maximizeGrid": "",
+    "event.selectAll": "",
+    "event.saveAsJSON": "",
+    "event.saveAsCSV": "",
+    "event.saveAsExcel": ""
+  },
+  "mssql.messagesDefaultOpen": true,
+  "mssql.logDebugInfo": false,
+  "mssql.saveAsCsv.includeHeaders": true,
+  "mssql.saveAsCsv.delimiter": ",",
+  "mssql.saveAsCsv.lineSeparator": null,
+  "mssql.saveAsCsv.textIdentifier": "\"",
+  "mssql.saveAsCsv.encoding": "utf-8",
+  "mssql.intelliSense.enableIntelliSense": true,
+  "mssql.intelliSense.enableErrorChecking": true,
+  "mssql.intelliSense.enableSuggestions": true,
+  "mssql.intelliSense.enableQuickInfo": true,
+  "mssql.intelliSense.lowerCaseSuggestions": false,
+  "mssql.resultsFontFamily": "-apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif",
+  "mssql.resultsFontSize": 13,
+  "mssql.copyIncludeHeaders": false,
+  "mssql.copyRemoveNewLine": true,
+  "mssql.splitPaneSelection": "next",
+  "mssql.format.alignColumnDefinitionsInColumns": false,
+  "mssql.format.datatypeCasing": "none",
+  "mssql.format.keywordCasing": "none",
+  "mssql.format.placeCommasBeforeNextStatement": false,
+  "mssql.format.placeSelectStatementReferencesOnNewLine": false,
+  "mssql.applyLocalization": false,
+  "mssql.query.displayBitAsNumber": true,
+  "mssql.persistQueryResultTabs": false,
+  "symbols.hidesExplorerArrows": false,
+
+  // Color Highlight Settings
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 1px",
+          "borderStyle": "dotted",
+          "borderColor": "white",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 1px 0 0",
+          "borderStyle": "dotted",
+          "borderColor": "white",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  },
+
+  // Remote Development Settings
+  "redhat.telemetry.enabled": true,
+
+  // ChatGPT Settings
+  "chatgpt.lang": "en",
+
+  // HTML Tag Wrapping Settings
+  "htmltagwrap.tag": "p",
+  "htmltagwrap.autoDeselectClosingTag": true,
+
+  // Highlight on copy Settings
+  "highlightOnCopy.backgroundColor": "rgba(0, 128, 0, 0.7)",
+  "highlightOnCopy.foregroundColor": "#fff",
+  "highlightOnCopy.timeout": 200,
+
+  //Td Highlight Settings
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)"
+      //other styling properties goes here ...
+    }
+  ],
+  "todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+  "todohighlight.defaultStyle": {
+    "color": "red",
+    "backgroundColor": "#ffab00",
+    "overviewRulerColor": "#ffab00",
+    "cursor": "pointer",
+    "border": "1px solid #eee",
+    "borderRadius": "2px",
+    "isWholeLine": true
+    //other styling properties goes here ...
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false
+}
